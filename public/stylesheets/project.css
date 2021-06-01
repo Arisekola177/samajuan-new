@@ -1,0 +1,100 @@
+#navigation {
+	background-color: #1d0227;
+    padding: 20px 40px;
+    z-index: 100;
+    width: 100%;
+}
+
+#navigation li {
+	padding: 0 10px;
+}
+
+#navigation li a {
+	color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+    font-weight: bold;
+}
+/*-
+# Header Social Link------*/
+.header-social-links {
+  padding-left: 20px;
+}
+
+.header-social-links a {
+  color: #fff;
+  padding-left: 6px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+.header-social-links a:hover {
+  color: #ff7f5d;
+}
+
+@media (max-width: 768px) {
+  .header-social-links {
+    padding: 0 48px 0 0;
+  }
+}
+
+.navbar-toggler i {
+color: #fff;
+}
+.navbar-toggler{
+    outline: none!important;
+}
+
+.fixedNav #navigation {
+	position: fixed;
+	top: 0;
+}
+.project
+{
+    background-image:linear-gradient(rgba(21, 1, 48, 0.5),rgba(243, 87, 87, 0.7)),
+    url(./images/hero-2.jpg);
+    background-position: center;
+    padding-top: 180px;
+    padding-bottom: 200px;
+    color: white;
+    background-attachment: fixed;
+    margin-top: 100px;
+    
+}
+
+
+.project i
+{
+    font-size: 85px;
+    
+}
+ 
+
+
+.project-items h2
+{
+    font-weight: bolder;
+    font-size: 42px;
+    color: #fff;
+}
+.project p
+{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/*=======================================
+        Counter project style Ends
+=========================================*/
+  /*====Gallery====*/
+    .gallery-list-item{
+    color: #000;
+    cursor: pointer;
+    user-select: none;
+  }
+  .active-item{
+    color: #55012bee;
+  }

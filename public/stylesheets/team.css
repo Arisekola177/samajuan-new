@@ -1,0 +1,155 @@
+#navigation {
+	background-color: #1d0227;
+    padding: 20px 40px;
+    z-index: 100;
+    width: 100%;
+}
+
+#navigation li {
+	padding: 0 10px;
+}
+
+#navigation li a {
+	color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+    font-weight: bold;
+}
+/*-
+# Header Social Link------*/
+.header-social-links {
+  padding-left: 20px;
+}
+
+.header-social-links a {
+  color: #fff;
+  padding-left: 6px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+.header-social-links a:hover {
+  color: #ff7f5d;
+}
+
+@media (max-width: 768px) {
+  .header-social-links {
+    padding: 0 48px 0 0;
+  }
+}
+
+.navbar-toggler i {
+color: #fff;
+}
+.navbar-toggler{
+    outline: none!important;
+}
+
+.fixedNav #navigation {
+	position: fixed;
+	top: 0;
+}
+.section-bg{
+  background-image:linear-gradient(rgba(21, 1, 48, 0.5),rgba(243, 87, 87, 0.7)),
+url(./images/bg.jpg);
+background-position: center;
+color: white cover;
+background-attachment: fixed;
+margin-top: 100px;
+background-size: cover;
+}
+.team .member {
+margin-bottom: 20px;
+overflow: hidden;
+border-radius: 5px;
+background: #fff;
+box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team .member .member-img {
+position: relative;
+overflow: hidden;
+}
+
+.team .member .social {
+position: absolute;
+left: 0;
+bottom: 30px;
+right: 0;
+opacity: 0;
+transition: ease-in-out 0.3s;
+text-align: center;
+}
+
+.team .member .social a {
+transition: color 0.3s;
+color: #0f394c;
+margin: 0 3px;
+padding-top: 7px;
+border-radius: 50px;
+width: 36px;
+height: 36px;
+background: rgba(35, 0, 75, 0.8);
+display: inline-block;
+transition: ease-in-out 0.3s;
+color: #fff;
+}
+
+.team .member .social a:hover {
+background: #76c7ed;
+}
+
+.team .member .social i {
+font-size: 18px;
+}
+
+.team .member .member-info {
+padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+font-weight: 700;
+margin-bottom: 5px;
+font-size: 18px;
+color: #0f394c;
+}
+
+.team .member .member-info span {
+display: block;
+font-size: 13px;
+font-weight: 400;
+color: #aaaaaa;
+}
+
+.team .member .member-info p {
+font-style: italic;
+font-size: 14px;
+line-height: 26px;
+color: #777777;
+}
+
+.team .member:hover .social {
+opacity: 1;
+bottom: 15px;
+}
+.all{
+  background-image:linear-gradient(rgba(21, 1, 48, 0.5),rgba(243, 87, 87, 0.7))
+}
+.des-color{
+  color: #fff;
+}
+.main-img {
+  width: 150px;
+}
+.testimonial p{
+    font-weight: bold;
+    color: #fff;
+}
+.testimonial h2{
+    font-weight: bold;
+    color: #fff;
+}
